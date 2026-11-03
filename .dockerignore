@@ -1,0 +1,7 @@
+.git
+log/*
+tmp/*
+db/*.sqlite3
+public/assets
+Dockerfile.local
+docker-compose.local.yml

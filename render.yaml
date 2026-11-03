@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: kintaia
+    runtime: docker
+    plan: free
+    branch: render
+    healthCheckPath: /
+    envVars:
+      - key: SECRET_KEY_BASE
+        generateValue: true
